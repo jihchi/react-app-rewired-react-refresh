@@ -11,10 +11,10 @@
     "react-scripts": "3.3.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,5 +30,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-loader": "^8.0.6",
+    "customize-cra": "^0.9.1",
+    "react-app-rewired": "^2.1.5",
+    "react-refresh": "^0.7.0",
+    "react-refresh-webpack-plugin": "git+https://github.com/pmmmwh/react-refresh-webpack-plugin.git"
   }
 }
