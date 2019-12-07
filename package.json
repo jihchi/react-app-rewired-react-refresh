@@ -33,10 +33,10 @@
     ]
   },
   "devDependencies": {
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.1.0",
     "babel-loader": "^8.0.6",
     "customize-cra": "^0.9.1",
     "react-app-rewired": "^2.1.5",
-    "react-refresh": "^0.7.0",
-    "react-refresh-webpack-plugin": "git+https://github.com/pmmmwh/react-refresh-webpack-plugin.git"
+    "react-refresh": "^0.7.0"
   }
 }

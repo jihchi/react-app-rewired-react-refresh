@@ -1,7 +1,7 @@
 // eslint-disable-next-line
 const {addBabelPlugin, addWebpackPlugin, override} = require('customize-cra');
 // eslint-disable-next-line
-const ReactRefreshPlugin = require('react-refresh-webpack-plugin');
+const ReactRefreshPlugin = require('@pmmmwh/react-refresh-webpack-plugin');
 
 /* config-overrides.js */
 module.exports = override(
